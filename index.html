@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Locação de Equipamentos de Construção</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Locação de Equipamentos de Construção</h1>
+    </div>
+
+    <div class="container">
+        <div class="equipamentos">
+            <div class="equipamento" data-titulo="Betoneira">
+                <img src="img/PNG-Betoneiras-B.png.webp" alt="Betoneira">
+                <div class="equipamento-content">
+                    <h2>Betoneira</h2>
+                    <p>Ideal para misturas de concreto e argamassa.</p>
+                </div>
+            </div>
+            <div class="equipamento" data-titulo="Andaime">
+                <img src="img/andaime.png.webp" alt="Andaime">
+                <div class="equipamento-content">
+                    <h2>Andaime</h2>
+                    <p>Equipamento essencial para trabalhos em altura.</p>
+                </div>
+            </div>
+            <div class="equipamento" data-titulo="Rompedor">
+                <img src="img/martelo.png.webp" alt="Rompedor">
+                <div class="equipamento-content">
+                    <h2>Rompedor</h2>
+                    <p>Utilizado para demolições e perfurações em concreto.</p>
+                </div>
+            </div>
+            <div class="equipamento" data-titulo="Contêiner">
+                <img src="img/Sem-Titulo-1.png.webp" alt="Contêiner">
+                <div class="equipamento-content">
+                    <h2>Contêiner</h2>
+                    <p>Solução prática para armazenamento e acomodação em obras.</p>
+                </div>
+            </div>
+            <div class="equipamento" data-titulo="Escoras Metálicas">
+                <img src="img/escoras.png.webp" alt="Escoras Metálicas">
+                <div class="equipamento-content">
+                    <h2>Escoras Metálicas</h2>
+                    <p>Indispensáveis para sustentação temporária em construções.</p>
+                </div>
+            </div>
+            <div class="equipamento" data-titulo="Container 3 metro">
+                <img src="img/container 3m.png" alt="Container 3 metro">
+                <div class="equipamento-content">
+                    <h2>Container 3 metro</h2>
+                    <p>Solução prática para armazenamento e acomodação em obras.</p>
+                </div>
+            </div>
+            <div class="equipamento" data-titulo="Torre de Andaimes Fechadeiro">
+                <img src="img/torre de andaime fechadeiro.png" alt="Torre de Andaimes Fechadeiro">
+                <div class="equipamento-content">
+                    <h2>Torre de Andaimes Fechadeiro</h2>
+                    <p>Equipamento essencial para trabalhos em altura.</p>
+                </div>
+            </div>
+            <div class="equipamento" data-titulo="Compactadores">
+                <img src="img/PNG-Compactadores.png.webp" alt="Compactadores">
+                <div class="equipamento-content">
+                    <h2>Compactadores</h2>
+                    <p>Equipamentos utilizados para preparar o solo.</p>
+                </div>
+            </div>
+            <div class="equipamento" data-titulo="Perfurador de Solo">
+                <img src="img/Perfurador de Solo.png" alt="Perfurador de Solo">
+                <div class="equipamento-content">
+                    <h2>Perfurador de Solo</h2>
+                    <p>Bom para cavar buracos no solo mais rigido.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Carrossel -->
+        <div class="carrossel">
+            <h2>Outros Equipamentos Disponíveis</h2>
+            <div class="carrossel-container">
+                <div class="carrossel-item" data-titulo="Furadeira">
+                    <img src="img/furadeira.png" alt="Furadeira">
+                    <div class="carrossel-item-content">
+                        <h2>Furadeira</h2>
+                        <p>Para perfurações em diversos materiais.</p>
+                    </div>
+                </div>
+                <div class="carrossel-item" data-titulo="Martelete">
+                    <img src="img/martelete.png" alt="Martelete">
+                    <div class="carrossel-item-content">
+                        <h2>Martelete</h2>
+                        <p>Potente para romper concreto e alvenaria.</p>
+                    </div>
+                </div>
+                <div class="carrossel-item" data-titulo="Guincho">
+                    <img src="img/guincho.png" alt="Guincho">
+                    <div class="carrossel-item-content">
+                        <h2>Guincho</h2>
+                        <p>Facilita o transporte vertical de materiais.</p>
+                    </div>
+                </div>
+                <div class="carrossel-item" data-titulo="Compactador de Solo">
+                    <img src="img/compactador.png" alt="Compactador de Solo">
+                    <div class="carrossel-item-content">
+                        <h2>Compactador de Solo</h2>
+                        <p>Essencial para compactação de terrenos.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="formulario">
+            <h2>Solicite um Orçamento Personalizado</h2>
+            <form>
+                <div class="form-group">
+                    <input type="text" placeholder="Nome Completo" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="E-mail" required>
+                </div>
+                <div class="form-group">
+                    <input type="tel" placeholder="Telefone">
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Descreva sua necessidade (equipamentos, período, etc.)"></textarea>
+                </div>
+                <button type="submit" class="btn btn-block">Enviar Solicitação</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Chatbot -->
+    <div class="chatbot-container">
+        <div class="chatbot-window">
+            <div class="chatbot-header">
+                <h3>Assistente Virtual</h3>
+                <button class="chatbot-close"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="chatbot-messages">
+                <div class="message message-bot">
+                    Olá! Sou o assistente virtual da Locadora. Como posso ajudar você hoje?
+                </div>
+            </div>
+            <div class="chatbot-input">
+                <input type="text" placeholder="Digite sua mensagem...">
+                <button type="button"><i class="fas fa-paper-plane"></i></button>
+            </div>
+        </div>
+        <button class="chatbot-button">
+            <i class="fas fa-comments"></i>
+        </button>
+    </div>
+
+    <script>
+        const precos = {
+            'Betoneira': {
+                'JJ Locações': 'R$ 120/dia',
+                'Maxloc': 'R$ 110/dia',
+                'Fortmaq': 'R$ 125/dia',
+                'Faexpo': 'R$ 115/dia'
+            },
+            'Andaime': {
+                'JJ Locações': 'R$ 30/unidade',
+                'Maxloc': 'R$ 28/unidade',
+                'Fortmaq': 'R$ 35/unidade',
+                'Faexpo': 'R$ 29/unidade'
+            },
+            'Rompedor': {
+                'JJ Locações': 'R$ 90/dia',
+                'Maxloc': 'R$ 85/dia',
+                'Fortmaq': 'R$ 95/dia',
+                'Faexpo': 'R$ 88/dia'
+            },
+            'Contêiner': {
+                'JJ Locações': 'R$ 450/mês',
+                'Maxloc': 'R$ 430/mês',
+                'Fortmaq': 'R$ 470/mês',
+                'Faexpo': 'R$ 440/mês'
+            },
+            'Escoras Metálicas': {
+                'JJ Locações': 'R$ 3/unidade',
+                'Maxloc': 'R$ 2,80/unidade',
+                'Fortmaq': 'R$ 3,20/unidade',
+                'Faexpo': 'R$ 3/unidade'
+            },
+            'Furadeira': {
+                'JJ Locações': 'R$ 25/dia',
+                'Maxloc': 'R$ 22/dia',
+                'Fortmaq': 'R$ 27/dia',
+                'Faexpo': 'R$ 24/dia'
+            },
+            'Martelete': {
+                'JJ Locações': 'R$ 100/dia',
+                'Maxloc': 'R$ 95/dia',
+                'Fortmaq': 'R$ 105/dia',
+                'Faexpo': 'R$ 98/dia'
+            },
+            'Guincho': {
+                'JJ Locações': 'R$ 75/dia',
+                'Maxloc': 'R$ 70/dia',
+                'Fortmaq': 'R$ 80/dia',
+                'Faexpo': 'R$ 72/dia'
+            },
+            'Compactador de Solo': {
+                'JJ Locações': 'R$ 130/dia',
+                'Maxloc': 'R$ 125/dia',
+                'Fortmaq': 'R$ 140/dia',
+                'Faexpo': 'R$ 128/dia'
+            },
+            'Container 3 metro': {
+                'JJ Locações': 'R$ 420/mês',
+                'Maxloc': 'R$ 410/mês',
+                'Fortmaq': 'R$ 440/mês',
+                'Faexpo': 'R$ 415/mês'
+            },
+            'Torre de Andaimes Fechadeiro': {
+                'JJ Locações': 'R$ 80/dia',
+                'Maxloc': 'R$ 75/dia',
+                'Fortmaq': 'R$ 85/dia',
+                'Faexpo': 'R$ 78/dia'
+            },
+            'Compactadores': {
+                'JJ Locações': 'R$ 100/dia',
+                'Maxloc': 'R$ 95/dia',
+                'Fortmaq': 'R$ 110/dia',
+                'Faexpo': 'R$ 98/dia'
+            },
+            'Perfurador de Solo': {
+            'JJ Locações': 'R$ 150/dia',
+            'Maxloc': 'R$ 145/dia',
+            'Fortmaq': 'R$ 160/dia',
+            'Faexpo': 'R$ 148/dia'
+    }
+        };
+
+        function createBalloon(title, element) {
+            removeExistingBalloon();
+            const data = precos[title];
+            if (!data) return;
+
+            const balloon = document.createElement('div');
+            balloon.className = 'balloon';
+            balloon.innerHTML = `
+                <div class="balloon-header">Preços - ${title}</div>
+                <ul class="balloon-list">
+                    ${Object.entries(data).map(([locadora, preco]) => {
+                        const locadoraLink = getLocadoraPage(locadora);
+                        return `<li>
+                            <a href="${locadoraLink}" target="_blank">${locadora}</a>
+                            <span class="price-highlight">${preco}</span>
+                        </li>`;
+                    }).join('')}
+                </ul>
+            `;
+            element.appendChild(balloon);
+        }
+
+        function getLocadoraPage(locadora) {
+            switch (locadora) {
+                case 'JJ Locações': return 'jjlocacoes.html';
+                case 'Maxloc': return 'maxloc.html';
+                case 'Fortmaq': return 'fortmaq.html';
+                case 'Faexpo': return 'faexpo.html';
+                default: return '#';
+            }
+        }
+
+        function removeExistingBalloon() {
+            document.querySelectorAll('.balloon').forEach(b => b.remove());
+        }
+
+        // Equipamentos com hover
+        document.querySelectorAll('.equipamento, .carrossel-item').forEach(item => {
+            item.addEventListener('mouseenter', () => {
+                const title = item.getAttribute('data-titulo');
+                createBalloon(title, item);
+            });
+            item.addEventListener('mouseleave', removeExistingBalloon);
+        });
+
+        // Chatbot
+        const chatbotButton = document.querySelector('.chatbot-button');
+        const chatbotWindow = document.querySelector('.chatbot-window');
+        const chatbotClose = document.querySelector('.chatbot-close');
+        const chatbotInput = document.querySelector('.chatbot-input input');
+        const chatbotMessages = document.querySelector('.chatbot-messages');
+        const chatbotSend = document.querySelector('.chatbot-input button');
+
+        chatbotButton.addEventListener('click', () => {
+            chatbotWindow.classList.toggle('active');
+        });
+
+        chatbotClose.addEventListener('click', () => {
+            chatbotWindow.classList.remove('active');
+        });
+
+        function addMessage(text, isUser = false) {
+            const messageDiv = document.createElement('div');
+            messageDiv.className = `message ${isUser ? 'message-user' : 'message-bot'}`;
+            messageDiv.textContent = text;
+            chatbotMessages.appendChild(messageDiv);
+            chatbotMessages.scrollTop = chatbotMessages.scrollHeight;
+        }
+
+        function handleUserMessage() {
+            const message = chatbotInput.value.trim();
+            if (message) {
+                addMessage(message, true);
+                chatbotInput.value = '';
+                
+                // Resposta automática do bot (simulada)
+                setTimeout(() => {
+                    const responses = [
+                        "Entendi sua dúvida. Posso ajudar com informações sobre locação de equipamentos, prazos e valores.",
+                        "Para mais detalhes sobre esse equipamento, posso verificar as promoções disponíveis.",
+                        "Você pode encontrar informações detalhadas sobre cada equipamento passando o mouse sobre os itens.",
+                        "Caso precise de um orçamento personalizado, utilize nosso formulário no final da página."
+                    ];
+                    const randomResponse = responses[Math.floor(Math.random() * responses.length)];
+                    addMessage(randomResponse);
+                }, 1000);
+            }
+        }
+
+        chatbotSend.addEventListener('click', handleUserMessage);
+        chatbotInput.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') handleUserMessage();
+        });
+
+        // Mensagem inicial do bot
+        setTimeout(() => {
+            addMessage("Estou aqui para ajudar com qualquer dúvida sobre nossos equipamentos e promoções!");
+        }, 1500);
+    </script>
+</body>
+</html>
